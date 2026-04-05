@@ -97,7 +97,7 @@ Optional auth:
 
 ---
 
-## 🎯 Demo Walkthrough (for judges)
+## 🎯 Demo Walkthrough
 
 ### 30-second pitch
 1. **Open** http://localhost:3000 — show the live event counter ticking up
@@ -107,7 +107,7 @@ Optional auth:
 5. Click **"False Positive"** → alert fires at LOW severity with FP reason shown
 6. Point out: **MITRE ID**, **confidence score**, **false-positive %**, **specific IP addresses**
 
-### API endpoints for judges
+### API endpoints
 ```bash
 # Live stats
 curl http://localhost:8000/api/stats
