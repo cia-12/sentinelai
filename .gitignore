@@ -1,0 +1,21 @@
+# Python
+backend/__pycache__/
+backend/.pytest_cache/
+backend/data/
+backend/main_replacement.py
+*.pyc
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Accidental malformed workspace artifact
+/[{]backend,frontend/
+
+# Local env files
+backend/.env
+frontend/.env.local
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
